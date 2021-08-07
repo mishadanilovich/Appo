@@ -1,0 +1,155 @@
+:root {
+  --main-color: #97a4be;
+  --main-bg-color: #223047;
+  --secondary-bg-color: #f5f6fa;
+  --secondary-color: #233148;
+  --color-aqua: #00fff1;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:visited {
+  color: var(--main-color);
+}
+
+p {
+  line-height: 29px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 0;
+}
+
+.container {
+  width: 1170px;
+  padding: 0;
+}
+
+.btn-main {
+  background: var(--color-aqua);
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-weight: 500;
+  box-shadow: -1px 2px 10px #00fff2be;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main:hover {
+  transform: translate(3px, -3px);
+}
+
+/*           FOOTER             */
+.footer .footer-nav {
+  margin: 140px 0;
+}
+
+.footer .footer-nav li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-nav li:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer-subscribe {
+  margin-bottom: 98px;
+}
+
+.footer .footer-subscribe h2 {
+  margin-bottom: 20px;
+}
+
+.footer .footer-subscribe p {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+.footer .footer-subscribe .footer-subscribe__form input {
+  height: 50px;
+  width: 570px;
+  margin-right: 31px;
+  outline: none;
+  border: none;
+  background: var(--secondary-bg-color);
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.footer .footer-subscribe .footer-subscribe__form button {
+  height: 50px;
+  max-width: 170px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.footer .footer-contacts {
+  background-color: var(--main-bg-color);
+}
+
+.footer .footer-contacts .container {
+  padding: 35px 0;
+}
+
+.footer .footer-contacts .container p {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--color-aqua);
+}
