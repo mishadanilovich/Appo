@@ -1,0 +1,13 @@
+{
+  "name": "Appo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "Danilovich Mihail",
+  "license": "ISC",
+  "repository": "https://github.com/mishadanilovich/Appo.git"
+}
