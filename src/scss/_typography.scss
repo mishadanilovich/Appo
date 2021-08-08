@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+
+a:active,
+a:visited {
+  color: var(--main-color);
+}
+
+p {
+  line-height: 29px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--secondary-color);
+  margin-bottom: 50px;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  margin: 0;
+}

@@ -1,0 +1,17 @@
+:root {
+  --main-color: #97a4be;
+  --main-color-light: #4e596c;
+  --main-bg-color: #223047;
+  --secondary-bg-color: #f5f6fa;
+  --secondary-color: #233148;
+  --color-aqua: #00fff1;
+  --color-white: #ffffff;
+}
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 87.5em; // 1400px
+$bp-large: 68.75em; // 1100px
+$bp-medium: 62.5em; // 1000px
+$bp-medium-1: 48em; // 768px
+$bp-small: 43.75em; // 700px
+$bp-smallest: 31.25em; // 500px
