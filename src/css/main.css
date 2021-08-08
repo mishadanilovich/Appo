@@ -22,7 +22,7 @@ body {
   font-family: 'Dosis', sans-serif;
   color: var(--main-color);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -93,6 +93,60 @@ h5 {
 
 .btn-main:hover {
   transform: translate(3px, -3px);
+}
+
+/*           APP ADD            */
+.app-add {
+  position: relative;
+  padding: 96px 0;
+  background: var(--secondary-bg-color);
+}
+
+.app-add .app-add__phones .app-add__phone img {
+  height: 551px;
+  width: 288px;
+}
+
+.app-add .app-add__phones .app-add__phone {
+  position: relative;
+  z-index: 1;
+}
+
+.app-add .app-add__phones .app-add__phone::after {
+  content: url('../img/smartphone.png');
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-46%, -46%) scale(0.8);
+}
+
+.app-add .app-add__info h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.app-add .app-add__info p {
+  font-size: 17px;
+  font-weight: 300;
+  max-width: 455px;
+  margin-bottom: 33px;
+}
+
+.app-add .app-add__info img {
+  width: 145px;
+}
+
+.app-add .app-add__info a:last-of-type {
+  margin-left: 27px;
+}
+
+.app-add .btn-main {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+  width: 370px;
+  height: 70px;
 }
 
 /*           FOOTER             */
