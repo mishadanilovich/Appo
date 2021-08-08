@@ -95,52 +95,95 @@ h5 {
   transform: translate(3px, -3px);
 }
 
+/*           SERVICES           */
+.services {
+  padding-bottom: 122px;
+}
+
+.services h2 {
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+  margin-bottom: 74px;
+}
+
+.services h2::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 100px;
+  background: var(--color-aqua);
+  margin: 82px auto 0;
+}
+
+.services .services__card {
+  width: 270px;
+  min-height: 321px;
+  box-shadow: 0 0 7px rgba(230, 230, 230, 0.651);
+  border-radius: 5px;
+  padding: 24px;
+}
+
+.services .services__card img {
+  width: 117px;
+  height: 106px;
+}
+
+.services .services__card p {
+  max-width: 230px;
+  text-align: center;
+}
+
 /*           APP ADD            */
-.app-add {
+.app-ad {
   position: relative;
   padding: 96px 0;
   background: var(--secondary-bg-color);
 }
 
-.app-add .app-add__phones .app-add__phone img {
-  height: 551px;
-  width: 288px;
+.app-ad .app-ad__phones .app-ad__phone img {
+  height: 508px;
+  width: 244px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px #00fff2be;
 }
 
-.app-add .app-add__phones .app-add__phone {
+.app-ad .app-ad__phones .app-ad__phone {
   position: relative;
   z-index: 1;
 }
 
-.app-add .app-add__phones .app-add__phone::after {
+.app-ad .app-ad__phones .app-ad__phone::after {
   content: url('../img/smartphone.png');
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-46%, -46%) scale(0.8);
+  top: 275px;
+  left: 285px;
+  transform: translate(-50%, -50%) scale(0.7);
+  border-radius: 30px;
+  box-shadow: 0 0 20px #00fff2be;
 }
 
-.app-add .app-add__info h2 {
+.app-ad .app-ad__info h2 {
   font-size: 40px;
   margin-bottom: 30px;
 }
 
-.app-add .app-add__info p {
+.app-ad .app-ad__info p {
   font-size: 17px;
   font-weight: 300;
   max-width: 455px;
   margin-bottom: 33px;
 }
 
-.app-add .app-add__info img {
+.app-ad .app-ad__info img {
   width: 145px;
 }
 
-.app-add .app-add__info a:last-of-type {
+.app-ad .app-ad__info a:last-of-type {
   margin-left: 27px;
 }
 
-.app-add .btn-main {
+.app-ad .btn-main {
   position: absolute;
   left: 50%;
   bottom: 0;
