@@ -31,6 +31,10 @@
       font-size: 17px;
       font-weight: 300;
       margin-bottom: 72px;
+
+      @media only screen and (max-width: $bp-medium-1) {
+        margin-bottom: 40px;
+      }
     }
 
     &__form {
@@ -72,6 +76,19 @@
 
   &-contacts {
     background-color: var(--main-bg-color);
+
+    &__content {
+      @media only screen and (max-width: $bp-smallest) {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+      }
+    }
+
+    &__icons {
+      @media only screen and (max-width: $bp-smallest) {
+        width: 80%;
+      }
+    }
 
     .container {
       padding: 35px 0;
