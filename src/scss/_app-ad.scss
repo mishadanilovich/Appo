@@ -1,0 +1,83 @@
+.app-ad {
+  position: relative;
+  padding: 96px 0;
+  background: var(--secondary-bg-color);
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding: 50px 0 96px;
+  }
+
+  .col {
+    @media only screen and (max-width: $bp-medium-1) {
+      &:first-of-type {
+        display: none;
+      }
+    }
+  }
+
+  &__phone {
+    position: relative;
+
+    img {
+      border-radius: 35px;
+      box-shadow: 0 0 20px #00fff2be;
+    }
+
+    &_main {
+      position: relative;
+      height: 508px;
+      width: 244px;
+      z-index: 10;
+    }
+
+    &_second {
+      position: absolute;
+      top: 275px;
+      left: 285px;
+      transform: translate(-50%, -50%) scale(0.7);
+
+      @media only screen and (max-width: $bp-medium) {
+        display: none;
+      }
+    }
+  }
+
+  &__info {
+    h2 {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    p {
+      font-size: 17px;
+      font-weight: 300;
+      max-width: 455px;
+      margin-bottom: 33px;
+
+      @media only screen and (max-width: $bp-medium-1) {
+        max-width: auto !important;
+      }
+    }
+
+    img {
+      width: 145px;
+    }
+
+    &-buttons {
+      gap: 27px;
+    }
+  }
+
+  .btn-main {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 370px;
+    height: 70px;
+
+    @media only screen and (max-width: $bp-smallest) {
+      width: 270px;
+    }
+  }
+}

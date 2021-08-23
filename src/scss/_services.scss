@@ -1,0 +1,63 @@
+.services {
+  padding: 209px 0 122px;
+
+  @media only screen and (max-width: $bp-smallest) {
+    padding-top: 110px;
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 74px;
+
+    @media only screen and (max-width: $bp-smallest) {
+      margin-bottom: 50px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      height: 4px;
+      width: 100px;
+      background: var(--color-aqua);
+      margin: 82px auto 0;
+
+      @media only screen and (max-width: $bp-smallest) {
+        margin-top: 50px;
+      }
+    }
+  }
+
+  &__container {
+    row-gap: 30px;
+
+    @media only screen and (max-width: $bp-smallest) {
+      justify-content: center !important;
+    }
+  }
+
+  &__card {
+    width: 270px;
+    min-height: 321px;
+    box-shadow: 0 0 7px rgba(230, 230, 230, 0.651);
+    border-radius: 5px;
+    padding: 24px;
+    margin: 0 auto;
+
+    @media only screen and (max-width: $bp-medium-1) {
+      width: 260px;
+    }
+
+    img {
+      width: 117px;
+      height: 106px;
+    }
+
+    p {
+      max-width: 230px;
+      text-align: center;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "appo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:sass": "node-sass src/scss/main.scss src/css/style.css -w --output-style expanded",
+    "start:devserver": "live-server",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "Danilovich Mihail",
+  "license": "ISC",
+  "repository": "https://github.com/mishadanilovich/Appo.git",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
+}
