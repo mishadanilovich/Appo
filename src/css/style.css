@@ -219,10 +219,6 @@ h5 {
   margin-bottom: 0;
 }
 
-.header .navbar-toggler {
-  display: block;
-}
-
 .header .navbar-toggler:focus {
   box-shadow: none;
 }
