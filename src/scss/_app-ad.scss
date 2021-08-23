@@ -17,27 +17,28 @@
 
   &__phone {
     position: relative;
-    z-index: 1;
 
-    &::after {
-      content: url('../img/smartphone.png');
+    img {
+      border-radius: 35px;
+      box-shadow: 0 0 20px #00fff2be;
+    }
+
+    &_main {
+      position: relative;
+      height: 508px;
+      width: 244px;
+      z-index: 10;
+    }
+
+    &_second {
       position: absolute;
       top: 275px;
       left: 285px;
       transform: translate(-50%, -50%) scale(0.7);
-      border-radius: 30px;
-      box-shadow: 0 0 20px #00fff2be;
 
       @media only screen and (max-width: $bp-medium) {
-        content: '';
+        display: none;
       }
-    }
-
-    img {
-      height: 508px;
-      width: 244px;
-      border-radius: 30px;
-      box-shadow: 0 0 20px #00fff2be;
     }
   }
 

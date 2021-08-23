@@ -44,6 +44,7 @@
     box-shadow: 0 0 7px rgba(230, 230, 230, 0.651);
     border-radius: 5px;
     padding: 24px;
+    margin: 0 auto;
 
     @media only screen and (max-width: $bp-medium-1) {
       width: 260px;
